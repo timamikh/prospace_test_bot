@@ -1,0 +1,36 @@
+.create-incident-page {
+  min-height: 100vh;
+  padding: var(--spacing-lg);
+}
+
+.create-incident-page__header {
+  margin-bottom: var(--spacing-xl);
+}
+
+.create-incident-page__back-button {
+  background: none;
+  border: none;
+  font-size: var(--font-size-md);
+  color: var(--tg-theme-link-color);
+  cursor: pointer;
+  padding: var(--spacing-sm) 0;
+  margin-bottom: var(--spacing-sm);
+  transition: opacity 0.2s ease;
+}
+
+.create-incident-page__back-button:hover {
+  opacity: 0.7;
+}
+
+.create-incident-page__title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--tg-theme-text-color);
+  margin: 0;
+}
+
+.create-incident-page__content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+

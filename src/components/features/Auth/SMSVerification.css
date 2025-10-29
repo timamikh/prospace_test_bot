@@ -1,0 +1,79 @@
+.sms-verification {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  width: 100%;
+  max-width: 400px;
+}
+
+.sms-verification__header {
+  text-align: center;
+}
+
+.sms-verification__title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--tg-theme-text-color);
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.sms-verification__description {
+  font-size: var(--font-size-sm);
+  color: var(--tg-theme-hint-color);
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.sms-verification__phone {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--tg-theme-text-color);
+  margin: 0;
+}
+
+.sms-verification__code-inputs {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.sms-verification__code-input {
+  width: 48px;
+  height: 56px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  color: var(--tg-theme-text-color);
+  background-color: var(--tg-theme-secondary-bg-color);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.sms-verification__code-input:focus {
+  border-color: var(--tg-theme-button-color);
+  background-color: var(--tg-theme-bg-color);
+}
+
+.sms-verification__code-input:disabled {
+  opacity: 0.6;
+}
+
+.sms-verification__error {
+  font-size: var(--font-size-sm);
+  color: var(--color-error);
+  text-align: center;
+  margin: 0;
+}
+
+.sms-verification__resend {
+  text-align: center;
+}
+
+.sms-verification__countdown {
+  font-size: var(--font-size-sm);
+  color: var(--tg-theme-hint-color);
+  margin: 0;
+}
+

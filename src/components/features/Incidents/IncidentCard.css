@@ -1,0 +1,59 @@
+.incident-card {
+  width: 100%;
+}
+
+.incident-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+
+.incident-card__header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.incident-card__type-icon {
+  font-size: 20px;
+}
+
+.incident-card__type {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--tg-theme-text-color);
+}
+
+.incident-card__description {
+  font-size: var(--font-size-md);
+  color: var(--tg-theme-text-color);
+  line-height: 1.5;
+  margin: var(--spacing-md) 0;
+}
+
+.incident-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid var(--tg-theme-secondary-bg-color);
+}
+
+.incident-card__footer-left {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.incident-card__priority,
+.incident-card__media {
+  font-size: var(--font-size-xs);
+  color: var(--tg-theme-hint-color);
+}
+
+.incident-card__time {
+  font-size: var(--font-size-xs);
+  color: var(--tg-theme-hint-color);
+}
+

@@ -1,0 +1,34 @@
+.status-panel {
+  width: 100%;
+}
+
+.status-panel__current {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md);
+  background-color: var(--tg-theme-secondary-bg-color);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.status-panel__label {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--tg-theme-text-color);
+}
+
+.status-panel__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.status-panel__no-route {
+  text-align: center;
+  color: var(--tg-theme-hint-color);
+  font-size: var(--font-size-md);
+  padding: var(--spacing-lg);
+  margin: 0;
+}
+

@@ -64,12 +64,6 @@ src/
 └── App.tsx           # Главный компонент
 ```
 
-## 🔑 Данные для доступа
-
-- **Bot Username**: @Prospase_test_bot
-- **Bot Token**: 8406287846:AAEDeB5cOzsRrvCCMunzUHGqNI8W_LkwhnE
-- **GitHub**: https://github.com/timamikh
-
 ## 📱 Функциональность
 
 ### Реализованные User Stories:
